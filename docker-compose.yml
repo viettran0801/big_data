@@ -19,7 +19,7 @@ services:
       - "SPARK_MASTER=spark://spark-master:7077"
   
   notebook:
-    image: jupyter/all-spark-notebook:spark-3.3.0
+    image: jupyter/all-spark-notebook:python-3.7
     ports:
       - "8888:8888"
       - "4040:4040"
