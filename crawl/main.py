@@ -59,3 +59,4 @@ for p in range(start_provice, 65):
                 exit(0)
             except:
                 logger.error(f"{year} {code} unrecognize error")
+                
